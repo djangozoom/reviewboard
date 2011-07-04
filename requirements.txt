@@ -1,6 +1,8 @@
 Django>=1.3
 django_evolution>=0.6.4
-Djblets>=0.6.9alpha0.dev-20110629
+# not released yet, so we need to use the Git source checkout
+#Djblets>=0.6.9alpha0.dev-20110629
+-e git+git://github.com/djblets/djblets.git#egg=djblets
 Pygments>=1.4
 flup
 paramiko
